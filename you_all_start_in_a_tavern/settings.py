@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-hxzg9fl6-%h_#-2@nxmmrni0$rm@_-5zig5na2*5iz_^!m+^$h'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['8000-nielmc-django-project-0kylrta3cs.us2.codeanyapp.com', 'heroku.com']
+ALLOWED_HOSTS = ['https://8000-mel0dramat1-youallstart-s6l0qfklwv1.ws-eu108.gitpod.io/']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'the_tavern',
 ]
 
 MIDDLEWARE = [
