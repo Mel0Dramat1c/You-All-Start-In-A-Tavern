@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cloundinary_storage',
+    'cloudinary_storage',
     'cloudinary',
     'the_tavern',
     'profiles',
