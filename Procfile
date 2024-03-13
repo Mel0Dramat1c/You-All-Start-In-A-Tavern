@@ -1,1 +1,1 @@
-web: gunicorn You-All-Start-In-A-Tavern.wsgi
+web: gunicorn you-all-start-in-a-tavern.wsgi
