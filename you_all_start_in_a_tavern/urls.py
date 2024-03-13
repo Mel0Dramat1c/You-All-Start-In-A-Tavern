@@ -21,6 +21,6 @@ from the_tavern import views as the_tavern_views
 ## requires fixing !!!
 
 urlpatterns = [
-    path("the_tavern/", the_tavern_views.the_tavern, name='the_tavern'),
     path('admin/', admin.site.urls),
+    path('the_tavern/', the_tavern, name='the_tavern'),
 ]
