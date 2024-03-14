@@ -12,6 +12,16 @@ class CharacterClass(models.Model):
         return self.name
 
 
+class CharacterRace(models.Model):
+    """
+    Models for the character races.
+    """
+    name = models.CharField(max_length=25, null=False, blank=False)
+
+    def __str__(self):
+        return self.name
+
+
 class Character(models.Models):
     """
     Model for user's characters (linked to a user's profile).
