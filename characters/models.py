@@ -1,4 +1,6 @@
+from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db import models
+from profiles.models import Profile
 
 
 # Create your models here.
@@ -22,14 +24,16 @@ class CharacterRace(models.Model):
         return self.name
 
 
-class Character(models.Models):
+class Character(models.Model):
     """
     Model for user's characters (linked to a user's profile).
     """
     profile = models.ForeignKey(Profile, on_delete=models.CASCADE)
     name = models.CharField(max_length=100, null=False, blank=False)
-    character_class = models.ForeignKey(CharacterClass, on_delete=models.CASCADE, null=False, blank=False)
-    character_race = models.ForeignKey(CharacterRace, on_delete=models.CASCADE, null=True, blank=True)
+    character_class = models.ForeignKey(
+        CharacterClass, on_delete=models.CASCADE, null=False, blank=False)
+    character_race = models.ForeignKey(
+        CharacterRace, on_delete=models.CASCADE, null=True, blank=True)
     level = models.PositiveIntegerField(
         default=1,
         validators=[MinValueValidator(1), MaxValueValidator(20)],
