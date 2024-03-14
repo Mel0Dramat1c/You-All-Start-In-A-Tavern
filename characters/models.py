@@ -72,6 +72,7 @@ class Character(models.Model):
     items = models.TextField(null=True, blank=True)
     features = models.TextField(null=True, blank=True)
     bio = models.TextField(null=True, blank=True)
+    created_on = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.name
