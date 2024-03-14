@@ -29,6 +29,7 @@ class Character(models.Models):
     profile = models.ForeignKey(Profile, on_delete=models.CASCADE)
     name = models.CharField(max_length=100, null=False, blank=False)
     character_class = models.ForeignKey(CharacterClass, on_delete=models.CASCADE, null=False, blank=False)
+    character_race = models.ForeignKey(CharacterRace, on_delete=models.CASCADE, null=True, blank=True)
     level = models.PositiveIntegerField(
         default=1,
         validators=[MinValueValidator(1), MaxValueValidator(20)],

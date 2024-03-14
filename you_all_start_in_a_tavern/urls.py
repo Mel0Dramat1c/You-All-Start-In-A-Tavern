@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include("the_tavern.urls")),
     path('profiles/', include("profiles.urls")),
+    path('characters/', include("characters.urls")),
 ]
