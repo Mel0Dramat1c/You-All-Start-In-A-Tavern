@@ -3,4 +3,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Testing!")
+    return render(request, 'the_tavern/index.html')
