@@ -29,6 +29,7 @@ class Character(models.Model):
     Model for user's characters (linked to a user's profile).
     """
     profile = models.ForeignKey(Profile, on_delete=models.CASCADE)
+    
     name = models.CharField(max_length=100, null=False, blank=False)
     character_class = models.ForeignKey(
         CharacterClass, on_delete=models.CASCADE, null=False, blank=False)
