@@ -1,7 +1,44 @@
 {% extends "base.html" %}
 {% load static %}
 {% block content %}
-<h2>{{character.name}}</h2>
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-4 text-center">
+        <img src="{% static 'images/placeholder.jpg' %}" width="75%" />
+      </div>
+      <div class="col-8">
+        <!-- Title goes between these h2 tags -->
+        <h1>Your Character Sheet:</h1>
+        <hr>
+        <h2> {{ character.name }} </h2>
+        <div>
+        <p><strong>Class:</strong> {{ character.character_class }}</p>
+        <p><strong>Race:</strong> {{ character.character_race }}</p>
+        <p><strong>Level:</strong> {{ character.level }}</p>
+        <p><strong>Strength:</strong> {{ character.strength }}</p>
+        <p><strong>Dexterity:</strong> {{ character.dexterity }}</p>
+        <p><strong>Constitution:</strong> {{ character.constitution }}</p>
+        <p><strong>Intelligence:</strong> {{ character.intelligence }}</p>
+        <p><strong>Wisdom:</strong> {{ character.wisdom }}</p>
+        <p><strong>Charisma:</strong> {{ character.charisma }}</p>
+        <p><strong>Items:</strong></p>
+        <p>{{ character.items }}</p>
+        <p><strong>Features:</strong></p>
+        <p>{{ character.features }}</p>
+        <p><strong>Bio:</strong></p>
+        <p>{{ character.bio }}</p>
+        </div>
+        <!-- Content goes directly underneath this -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-right">
+        <!-- Updated on field goes in here -->
+  
+        <p class="text-end"><em>Updated on: {{ about.updated_on }}</em></p>
+      </div>
+    </div>
+  </div>
 
 
 <!-- index.html content ends here -->
