@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
+from characters.models import Character
 
-def index(request):
-    return render(request, 'the_tavern/index.html')
+
+def main_page(request):
+    characters = Character.objects.all()
+    return render(request, 'the_tavern/main_page.html', {'characters': characters})

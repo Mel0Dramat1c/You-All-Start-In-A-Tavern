@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% block content %}
 
 <!-- index.html content starts here -->
@@ -9,21 +9,21 @@
         <!-- Blog Entries Column -->
         <div class="col-12 mt-3 left">
             <div class="row">
-                {% for post in post_list %}
+                {% for character in characters %}
                 <div class="col-md-4">
                     <div class="card mb-4">
                         <div class="card-body">
                             <div class="image-container">
                                 <div class="image-flash">
-                                    <p class="author">Author: {{ post.author }}</p>
+                                    <p class="author">Author: {{ character.author }}</p>
                                 </div>
                             </div>
-                            <a href="#" class="post-link">
-                                <h2 class="card-title">{{ post.title }}</h2>
+                            <a href="/characters/{{ character.id }}" class="post-link">
+                                <h2 class="card-title">{{ character.name }}</h2>
                             </a>
 
                             <hr />
-                            <p class="card-text text-muted h6">{{ post.created_on}}
+                            <p class="card-text text-muted h6">{{ character.created_on}}
                             </p>
                         </div>
                     </div>

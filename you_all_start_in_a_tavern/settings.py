@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     'the_tavern',
     'profiles',
     'characters',
+    'about',
 ]
 
 SITE_ID = 1
