@@ -4,15 +4,15 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/Mel0Dramat1c/You-All-Start-In-A-Tavern)](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Mel0Dramat1c/You-All-Start-In-A-Tavern)](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern)
 
-<h2> ADvENTURE AWAITS <h2>
+<h2> ADVENTURE AWAITS </h2>
 
-You All Start In A Tavern is a website for the creation and storage of character sheets in tabletop RPGs such as 'Dungeons and Dragons' or 'Pathfinder'. It features CRUD functionality and responsive design to allow users to easily create, edit, and delete character sheets for use in campaigns with friends and quick reference for dungeon masters, other players, or for sharing examples of character builds online.
+<h3>You All Start In A Tavern is a website for the creation and storage of character sheets in tabletop RPGs such as 'Dungeons and Dragons' or 'Pathfinder'. It features CRUD functionality and responsive design to allow users to easily create, edit, and delete character sheets for use in campaigns with friends and quick reference for dungeon masters, other players, or for sharing examples of character builds online.
 
 The website aims first and foremost to be easy to use, with dropdown menus for fixed classes and races, and text areas for items and features to allow for custom rules and easy on-the-fly edits for house rules, retcons, or just simplifying official rules text for readability, without needing to create a new character sheet everytime.
 
 You All Start In A Tavern is useful to new and veteran players alike. It informs beginners as to what fields in their character sheet are the most important by virtue of having them be mandatory includes while veteran players will benefit from having quick access to any of their many characters without having to store and maintain sheets and sheets of printed paper.
 
-Even for old school traditionalists who prefer the comforting feel of pen and paper, You All Start In A Tavern is an invaluable back up should a paper character sheet be damaged, lost, or just forgotten in the car, allowing the user to simply transfer all their most important stored info to a new or temporary paper sheet in a pinch. The call to adventure should not be hindered by spilt coffee or rushing out the door!
+Even for old school traditionalists who prefer the comforting feel of pen and paper, You All Start In A Tavern is an invaluable back up should a paper character sheet be damaged, lost, or just forgotten in the car, allowing the user to simply transfer all their most important stored info to a new or temporary paper sheet in a pinch. The call to adventure should not be hindered by spilt coffee or rushing out the door!</h3>
 
 In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
 
