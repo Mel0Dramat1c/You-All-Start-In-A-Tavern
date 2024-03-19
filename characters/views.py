@@ -1,7 +1,7 @@
 from django.http import Http404
 from django.shortcuts import render
 from .models import Character
-from .forms import CharacterForm
+from characters.forms import CharacterForm
 
 
 def main_page(request):
@@ -17,13 +17,12 @@ def detail(request, id):
     return render(request, 'character.html', {"character": character})
 
 
-def create_a_character(request):
+def create(request):
     if request.method == 'POST':
         form = CharacterForm(request.POST)
         if form.is_valid():
-            # Save the form data to the database
             character = form.save(commit=False)
-            character.profile = request.user.profile  # Assuming you have user profiles
+            character.profile = request.user.profile
             character.save()
             # Redirect to character detail page
             return redirect('character_detail', id=character.id)

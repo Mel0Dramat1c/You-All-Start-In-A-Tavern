@@ -1,5 +1,25 @@
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
-</form>
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-4 text-center">
+        <img src="{% static 'images/placeholder.jpg' %}" width="75%" />
+      </div>
+      <div class="col-8">
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+</div>
+
+
+{% endblock %}
