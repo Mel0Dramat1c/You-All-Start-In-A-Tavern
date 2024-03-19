@@ -25,7 +25,8 @@ def create_a_character(request):
             character = form.save(commit=False)
             character.profile = request.user.profile  # Assuming you have user profiles
             character.save()
-            return redirect('character_detail', id=character.id)  # Redirect to character detail page
+            # Redirect to character detail page
+            return redirect('character_detail', id=character.id)
     else:
         form = CharacterForm()
     return render(request, 'create_a_character.html', {'form': form})
