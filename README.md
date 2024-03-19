@@ -4,8 +4,8 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/Mel0Dramat1c/You-All-Start-In-A-Tavern)](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Mel0Dramat1c/You-All-Start-In-A-Tavern)](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern)
 
-<h2> ADVENTURE AWAITS </h2>
-
+<h2><strong>YOUR ADVENTURE AWAITS!</strong></h2>
+<hr>
 <h3>You All Start In A Tavern is a website for the creation and storage of character sheets in tabletop RPGs such as 'Dungeons and Dragons' or 'Pathfinder'. It features CRUD functionality and responsive design to allow users to easily create, edit, and delete character sheets for use in campaigns with friends and quick reference for dungeon masters, other players, or for sharing examples of character builds online.
 
 The website aims first and foremost to be easy to use, with dropdown menus for fixed classes and races, and text areas for items and features to allow for custom rules and easy on-the-fly edits for house rules, retcons, or just simplifying official rules text for readability, without needing to create a new character sheet everytime.
