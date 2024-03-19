@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'cloudinary_storage',
+    'crispy_forms',
     'cloudinary',
     'the_tavern',
     'profiles',
