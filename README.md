@@ -274,17 +274,8 @@ Hint: the more, the merrier!
 
 ### Future Features
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-- {{ YOUR-TITLE-FOR-FUTURE-FEATURE-#1 }}
-    - Any additional notes about this feature.
+- {{ Search Bar }}
+    - A search feature to allow users to search for characters by name, class, or user.
 - {{ YOUR-TITLE-FOR-FUTURE-FEATURE-#2 }}
     - Any additional notes about this feature.
 - {{ YOUR-TITLE-FOR-FUTURE-FEATURE-#3 }}
