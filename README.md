@@ -159,8 +159,8 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Mobile Wireframes
 
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/mobile-home.png)
@@ -177,12 +177,12 @@ Gallery
 etc.
   - repeat for any remaining mobile wireframes
 
-< / details >
+</details>
 
 ### Tablet Wireframes
 
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/tablet-home.png)
@@ -199,12 +199,12 @@ Gallery
 etc.
   - repeat for any remaining tablet wireframes
 
-< / details >
+</details>
 
 ### Desktop Wireframes
 
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
 
 Home
   - ![screenshot](documentation/wireframes/desktop-home.png)
@@ -221,7 +221,7 @@ Gallery
 etc.
   - repeat for any remaining desktop wireframes
 
-< / details >
+</details>
 
 ## Features
 
@@ -292,15 +292,6 @@ Consider adding any helpful links or notes to help remind you in the future, if 
 
 ## Tools & Technologies Used
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 
 - [![Git](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) used for secure online code storage.
@@ -361,19 +352,6 @@ class Product(models.Model):
     def __str__(self):
         return self.name
 ```
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-A couple recommendations for building free ERDs:
-- [Draw.io](https://draw.io)
-- [Lucidchart](https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning)
-
-A more comprehensive ERD can be auto-generated once you're
-at the end of your development stages, just before you submit.
-Follow the steps below to obtain a thorough ERD that you can include.
-Feel free to leave the steps in the README for future use to yourself.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 I have used `pygraphviz` and `django-extensions` to auto-generate an ERD.
 
