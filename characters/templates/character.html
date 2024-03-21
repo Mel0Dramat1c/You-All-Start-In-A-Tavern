@@ -63,11 +63,13 @@
         <p>{{ character.bio }}</p>
       </div>
       <hr>
+      {% if request.user.is_superuser %}
       <div>
         <p>Categories to be implemented soon:</p>
         <p>Alignment, Armour Class, Speed, Hitpoints, Background, Proficiencies, Languages, Hit Dice, Saving Throws, and
           more!</p>
       </div>
+      {% endif %}
     </div>
   </div>
   <div class="row">
