@@ -276,10 +276,17 @@ Hint: the more, the merrier!
 
 - {{ Search Bar }}
     - A search feature to allow users to search for characters by name, class, or user.
-- {{ YOUR-TITLE-FOR-FUTURE-FEATURE-#2 }}
-    - Any additional notes about this feature.
-- {{ YOUR-TITLE-FOR-FUTURE-FEATURE-#3 }}
-    - Any additional notes about this feature.
+- {{ User Characters }}
+    - A feature to limit the displayed characters to ones only created by the logged in user for quick access.
+- {{ Profile customisation }}
+    - A feature to allow personal customisation of the logged in users profile, including profile picture, and the ability to quickly edit username.
+- {{ Ability Score Modifiers }}
+    - A feature to automatically determine ability score modifiers for gameplay by converting listed character statistics into the respective bonuses they apply, e.g. Having 14 Strength grants a +2 modifier for Strength checks.
+- {{ Default Traits }}
+    - A feature to automatically provide default class or race features provided by the chosen character class or race, e.g. Elves having Darkvision or Barbarians having Rage.
+- {{ Character Portraits }}
+    - A feature to allow users to upload a picture of their character to their character sheet rather than the default placeholder.
+  
 
 ## Tools & Technologies Used
 

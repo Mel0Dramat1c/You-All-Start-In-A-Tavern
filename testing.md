@@ -59,13 +59,97 @@ You are not required to validate external libraries/frameworks, such as imported
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
+### HTML
+
+I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| about | about.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | create_a_character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | edit_a_character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | authenticate.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_entrance.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_manage.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | reauthenticate.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | generate.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | activate_form.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | deactivate_form.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | authentication_error.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_entrance.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_manage.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | connections.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login_cancelled.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | signup.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login_extra.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | provider_list.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_manage.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | authenticate.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_entrance.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_manage.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | reauthenticate.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | generate.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | activate_form.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | deactivate_form.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | authentication_error.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_entrance.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | base_manage.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | connections.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login_cancelled.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | signup.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | login_extra.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | provider_list.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| templates | usersession_list.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| the_tavern | main_page.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
+### CSS
+
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| static | style.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
+### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+| Directory | File | Screenshot | Notes |
+| --- | --- | --- | --- |
+| static | script.js | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 ### Python
 
 I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
 
 | Directory | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
+| about | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| about | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| about | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| about | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/forms.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 |  | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/manage.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| profiles | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| profiles | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| profiles | signals.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/signals.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| profiles | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| profiles | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 | the_tavern | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 | the_tavern | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 | the_tavern | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
@@ -323,6 +407,162 @@ from the respective feature.
 | As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature08.png) |
 | As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature09.png) |
 | repeat for all remaining user stories | x |
+
+## Automated Testing
+
+I have conducted a series of automated tests on my application.
+
+I fully acknowledge and understand that, in a real-world scenario, an extensive set of additional tests would be more comprehensive.
+
+### JavaScript (Jest Testing)
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+
+Adjust the code below (file names, etc.) to match your own project files/folders.
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+
+I have used the [Jest](https://jestjs.io) JavaScript testing framework to test the application functionality.
+
+In order to work with Jest, I first had to initialize NPM.
+
+- `npm init`
+- Hit `enter` for all options, except for **test command:**, just type `jest`.
+
+Add Jest to a list called **Dev Dependencies** in a dev environment:
+
+- `npm install --save-dev jest`
+
+**IMPORTANT**: Initial configurations
+
+When creating test files, the name of the file needs to be `file-name.test.js` in order for Jest to properly work.
+
+Without the following, Jest won't properly run the tests:
+
+- `npm install -D jest-environment-jsdom`
+
+Due to a change in Jest's default configuration, you'll need to add the following code to the top of the `.test.js` file:
+
+```js
+/**
+ * @jest-environment jsdom
+ */
+
+const { test, expect } = require("@jest/globals");
+const { function1, function2, function3, etc. } = require("../script-name");
+
+beforeAll(() => {
+    let fs = require("fs");
+    let fileContents = fs.readFileSync("index.html", "utf-8");
+    document.open();
+    document.write(fileContents);
+    document.close();
+});
+```
+
+Remember to adjust the `fs.readFileSync()` to the specific file you'd like you test.
+The example above is testing the `index.html` file.
+
+Finally, at the bottom of the script file where your primary scripts are written, include the following at the bottom of the file.
+Make sure to include the name of all of your functions that are being tested in the `.test.js` file.
+
+```js
+if (typeof module !== "undefined") module.exports = {
+    function1, function2, function3, etc.
+};
+```
+
+Now that these steps have been undertaken, further tests can be written, and be expected to fail initially.
+Write JS code that can get the tests to pass as part of the Red-Green refactor process.
+
+Once ready, to run the tests, use this command:
+
+- `npm test`
+
+**NOTE**: To obtain a coverage report, use the following command:
+
+- `npm test --coverage`
+
+Below are the results from the tests that I've written for this application:
+
+| Test Suites | Tests | Screenshot |
+| --- | --- | --- |
+| 1 passed | 16 passed | ![screenshot](documentation/tests/js-test-coverage.png) |
+| x | x | repeat for all remaining tests |
+
+#### Jest Test Issues
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+
+Use this section to list any known issues you ran into while writing your Jest tests.
+Remember to include screenshots (where possible), and a solution to the issue (if known).
+
+This can be used for both "fixed" and "unresolved" issues.
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+
+### Python (Unit Testing)
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+
+Adjust the code below (file names, etc.) to match your own project files/folders.
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+
+I have used Django's built-in unit testing framework to test the application functionality.
+
+In order to run the tests, I ran the following command in the terminal each time:
+
+`python3 manage.py test name-of-app `
+
+To create the coverage report, I would then run the following commands:
+
+`coverage run --source=name-of-app manage.py test`
+
+`coverage report`
+
+To see the HTML version of the reports, and find out whether some pieces of code were missing, I ran the following commands:
+
+`coverage html`
+
+`python3 -m http.server`
+
+Below are the results from the various apps on my application that I've tested:
+
+| App | File | Coverage | Screenshot |
+| --- | --- | --- | --- |
+| Bag | test_forms.py | 99% | ![screenshot](documentation/tests/py-test-bag-forms.png) |
+| Bag | test_models.py | 89% | ![screenshot](documentation/tests/py-test-bag-models.png) |
+| Bag | test_urls.py | 100% | ![screenshot](documentation/tests/py-test-bag-urls.png) |
+| Bag | test_views.py | 71% | ![screenshot](documentation/tests/py-test-bag-views.png) |
+| Checkout | test_forms.py | 99% | ![screenshot](documentation/tests/py-test-checkout-forms.png) |
+| Checkout | test_models.py | 89% | ![screenshot](documentation/tests/py-test-checkout-models.png) |
+| Checkout | test_urls.py | 100% | ![screenshot](documentation/tests/py-test-checkout-urls.png) |
+| Checkout | test_views.py | 71% | ![screenshot](documentation/tests/py-test-checkout-views.png) |
+| Home | test_forms.py | 99% | ![screenshot](documentation/tests/py-test-home-forms.png) |
+| Home | test_models.py | 89% | ![screenshot](documentation/tests/py-test-home-models.png) |
+| Home | test_urls.py | 100% | ![screenshot](documentation/tests/py-test-home-urls.png) |
+| Home | test_views.py | 71% | ![screenshot](documentation/tests/py-test-home-views.png) |
+| Products | test_forms.py | 99% | ![screenshot](documentation/tests/py-test-products-forms.png) |
+| Products | test_models.py | 89% | ![screenshot](documentation/tests/py-test-products-models.png) |
+| Products | test_urls.py | 100% | ![screenshot](documentation/tests/py-test-products-urls.png) |
+| Products | test_views.py | 71% | ![screenshot](documentation/tests/py-test-products-views.png) |
+| Profiles | test_forms.py | 99% | ![screenshot](documentation/tests/py-test-profiles-forms.png) |
+| Profiles | test_models.py | 89% | ![screenshot](documentation/tests/py-test-profiles-models.png) |
+| Profiles | test_urls.py | 100% | ![screenshot](documentation/tests/py-test-profiles-urls.png) |
+| Profiles | test_views.py | 71% | ![screenshot](documentation/tests/py-test-profiles-views.png) |
+| x | x | x | repeat for all remaining tested apps/files |
+
+#### Unit Test Issues
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+
+Use this section to list any known issues you ran into while writing your unit tests.
+Remember to include screenshots (where possible), and a solution to the issue (if known).
+
+This can be used for both "fixed" and "unresolved" issues.
+
+🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ## Bugs
 
