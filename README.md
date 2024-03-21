@@ -635,11 +635,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on Heroku.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+There were no thankfully no differences between the Heroku deployment and the locally deployed version of the website. Heroku was able to successfully deploy the website with the only difference being the debugging available through the local version.
 
 ## Credits
 
@@ -672,9 +668,9 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
-| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
 | [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+| [ChatGPT](https://chat.openai.com) | entire site | assistance with debugging | 
 
 ### Media
 
