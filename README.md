@@ -327,28 +327,89 @@ Hint: the more, the merrier!
 Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
 Understanding the relationships between different tables can save time later in the project.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
+![screenshot](documentation/erd.png)
 
-Using your defined models (one example below), create an ERD with the relationships identified.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ```python
-class Product(models.Model):
-    category = models.ForeignKey(
-        "Category", null=True, blank=True, on_delete=models.SET_NULL)
-    sku = models.CharField(max_length=254, null=True, blank=True)
-    name = models.CharField(max_length=254)
-    description = models.TextField()
-    has_sizes = models.BooleanField(default=False, null=True, blank=True)
-    price = models.DecimalField(max_digits=6, decimal_places=2)
-    rating = models.DecimalField(
-        max_digits=6, decimal_places=2, null=True, blank=True)
-    image_url = models.URLField(max_length=1024, null=True, blank=True)
-    image = models.ImageField(null=True, blank=True)
+class CharacterClass(models.Model):
+    name = models.CharField(max_length=25, null=False, blank=False)
 
     def __str__(self):
         return self.name
+
+
+class CharacterRace(models.Model):
+    name = models.CharField(max_length=25, null=False, blank=False)
+
+    def __str__(self):
+        return self.name
+
+
+class Character(models.Model):
+    profile = models.ForeignKey(Profile, on_delete=models.CASCADE)
+
+    name = models.CharField(max_length=100, null=False, blank=False)
+    character_class = models.ForeignKey(
+        CharacterClass, on_delete=models.CASCADE, null=False, blank=False)
+    character_race = models.ForeignKey(
+        CharacterRace, on_delete=models.CASCADE, null=True, blank=True)
+    level = models.PositiveIntegerField(
+        default=1,
+        validators=[MinValueValidator(1), MaxValueValidator(20)],
+        null=False, blank=False
+    )
+    strength = models.PositiveIntegerField(
+        default=1,
+        validators=[MinValueValidator(1), MaxValueValidator(50)],
+        null=False, blank=False
+    )
+    dexterity = models.PositiveIntegerField(
+        default=1,
+        validators=[MinValueValidator(1), MaxValueValidator(50)],
+        null=False, blank=False
+    )
+    constitution = models.PositiveIntegerField(
+        default=1,
+        validators=[MinValueValidator(1), MaxValueValidator(50)],
+        null=False, blank=False
+    )
+    intelligence = models.PositiveIntegerField(
+        default=1,
+        validators=[MinValueValidator(1), MaxValueValidator(50)],
+        null=False, blank=False
+    )
+    wisdom = models.PositiveIntegerField(
+        default=1,
+        validators=[MinValueValidator(1), MaxValueValidator(50)],
+        null=False, blank=False
+    )
+    charisma = models.PositiveIntegerField(
+        default=1,
+        validators=[MinValueValidator(1), MaxValueValidator(50)],
+        null=False, blank=False
+    )
+    items = models.TextField(null=True, blank=True)
+    features = models.TextField(null=True, blank=True)
+    bio = models.TextField(null=True, blank=True)
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.name
+
+
+class Profile(models.Model):
+    """
+    Model for user's profile (extending from the default User model).
+    """
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    image = CloudinaryField("image", default="placeholder")
+
+    def image_preview(self):
+        from django.utils.html import format_html
+        return format_html(f"<img src='{self.image.url}' height='150'>")
+
+    def __str__(self):
+        return self.user.username
 ```
 
 I have used `pygraphviz` and `django-extensions` to auto-generate an ERD.
@@ -359,6 +420,7 @@ The steps taken were as follows:
 - then type `Y` to proceed
 - then: `pip3 install django-extensions pygraphviz`
 - in my `settings.py` file, I added the following to my `INSTALLED_APPS`:
+
 ```python
 INSTALLED_APPS = [
     ...
@@ -384,13 +446,7 @@ It isn't a specialized tool, but with the right tags and project creation/issue 
 
 Through it, user stories, issues, and milestone tasks were planned, then tracked on a weekly basis using the basic Kanban board.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-Consider adding a basic screenshot of your Projects Board.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-![screenshot](documentation/gh-projects.png)
+![screenshot](documentation/UserStories.png)
 
 ### GitHub Issues
 
@@ -399,15 +455,9 @@ There, I used my own **User Story Template** to manage user stories.
 
 It also helped with milestone iterations on a weekly basis.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-Consider adding a screenshot of your Open and Closed Issues.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 - [Open Issues](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/issues) [![GitHub issues](https://img.shields.io/github/issues/Mel0Dramat1c/You-All-Start-In-A-Tavern)](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/issues)
 
-    ![screenshot](documentation/gh-issues-open.png)
+    ![screenshot](documentation/kanban.png)
 
 - [Closed Issues](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/issues?q=is%3Aissue+is%3Aclosed) [![GitHub closed issues](https://img.shields.io/github/issues-closed/Mel0Dramat1c/You-All-Start-In-A-Tavern)](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/issues?q=is%3Aissue+is%3Aclosed)
 
@@ -621,7 +671,6 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
