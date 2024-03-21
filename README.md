@@ -14,7 +14,7 @@ You All Start In A Tavern is useful to new and veteran players alike. It informs
 
 Even for old school traditionalists who prefer the comforting feel of pen and paper, You All Start In A Tavern is an invaluable back up should a paper character sheet be damaged, lost, or just forgotten in the car, allowing the user to simply transfer all their most important stored info to a new or temporary paper sheet in a pinch. The call to adventure should not be hindered by spilt coffee or rushing out the door!</h3>
 
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
+<hr>
 
 Consider adding a mockup image using the "Am I Responsive" website.
 Here's your deployed site as an example:
