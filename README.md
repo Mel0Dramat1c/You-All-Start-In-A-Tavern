@@ -56,11 +56,7 @@ Source: https://github.com/orgs/community/discussions/16925
 
 ## UX
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑START OF NOTES (to be deleted)
-
-In this section, you will briefly explain your design processes.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
+The purpose of this website is to provide quick access to character sheets across a variety of devices so ease of use and visibility was the top priority. This is why I prioritised access to characters on the main page as well as bold colours and simple columns and rows for their listing. As the website is made for fantasy tabletop roleplaying games, I wanted a rustic, adventurous aesthetic, hence the use of the scroll background. The idea is to give the feeling of opening an old book that keeps record of a famous adventurer like something from a storybook or fantasy archive.
 
 ### Colour Scheme
 
@@ -207,42 +203,23 @@ etc.
 
 ## Features
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 START OF NOTES (to be deleted)
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-LOGIN/LOGOUT - A single django integrated login page using html templating from Matt Rudge's Code|Star blog tutorial allowing users to create an account or log in.
-
-THE TAVERN - The main page of the website that features created characters for users to view.
-
-CREATE A CHARACTER - The character creator that allows users to fill in fields to create a custom character using the 'character' model.
-
-CHARACTER - The created character pages that features its creator's charactor.
-
-ABOUT - A page that gives information on the purpose of the website for new players.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ### Existing Features
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#1 }}**
+- **{{ THE TAVERN }}**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    -  The main page of the website that features created characters for users to view. The page hosts pages of the most recently created characters as well as the navbar that allows easy navigation to any part of the website.
 
 ![screenshot](documentation/features/feature01.png)
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#2 }}**
+- **{{ CREATE A CHARACTER }}**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The character creator that allows users to fill in fields to create a custom character using the 'character' model. The page features an easy to use form that contains multiple named fields.
 
 ![screenshot](documentation/features/feature02.png)
 
-- **{{ YOUR-TITLE-FOR-FEATURE-#3 }}**
+- **{{ CHARACTER }}**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The created character pages that features its creator's charactor. These are found on the main page and contain a styled, easy to read character sheet of all the relevant characters stats chosen during the character creation phase.
 
 ![screenshot](documentation/features/feature03.png)
 
