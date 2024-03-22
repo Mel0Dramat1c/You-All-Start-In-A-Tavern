@@ -611,7 +611,7 @@ however, it is important to be very specific about these sources to avoid plagia
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
 | [DeepAi](https://deepai.org/machine-learning-model/text2img) | entire site | images |
-| [Unsplash](https://www.masterartstudio.com/antique-scroll-backgrounds-jpg/) | antique scroll backgrounds | main page background |
+| [MasterArtStudio](https://www.masterartstudio.com/antique-scroll-backgrounds-jpg/) | antique scroll backgrounds | main page background |
 
 ### Acknowledgements
 
