@@ -127,9 +127,6 @@ Recommended browsers to consider:
 - [Chrome](https://www.google.com/chrome)
 - [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
 - [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
 
 **IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
 
