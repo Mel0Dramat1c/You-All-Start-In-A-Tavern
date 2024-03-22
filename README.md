@@ -135,6 +135,15 @@ Dropdowns in Markdown are considered some of the only acceptable HTML components
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
+Home
+  - ![screenshot](documentation/wireframes/home.png)
+
+About
+  - ![screenshot](documentation/wireframes/about.png)
+
+Character
+  - ![screenshot](documentation/wireframes/character.png)
+
 ### Mobile Wireframes
 
 <details>
@@ -146,11 +155,8 @@ Home
 About
   - ![screenshot](documentation/wireframes/mobile-about.png)
 
-Contact
+Character
   - ![screenshot](documentation/wireframes/mobile-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
 
 etc.
   - repeat for any remaining mobile wireframes
@@ -168,14 +174,8 @@ Home
 About
   - ![screenshot](documentation/wireframes/tablet-about.png)
 
-Contact
+Create A Character
   - ![screenshot](documentation/wireframes/tablet-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
-
-etc.
-  - repeat for any remaining tablet wireframes
 
 </details>
 
