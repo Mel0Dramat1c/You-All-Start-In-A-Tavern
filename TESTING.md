@@ -48,22 +48,17 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | characters | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/models.py) | ![screenshot](documentation/validation/charactersmodelspy.png) | |
 | characters | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/urls.py) | ![screenshot](documentation/validation/charactersurlspy.png) | |
 | characters | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/views.py) | ![screenshot](documentation/validation/charactersviewspy.png) | |
-|  | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/manage.py) | ![screenshot](documentation/validation/mainmanagepy.png) | |
+|  | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/manage.py) | ![screenshot](documentation/validation/mainmanagepy.png) | Raise is included on following line |
 | profiles | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/admin.py) | ![screenshot](documentation/validation/profilesadminpy.png) | |
 | profiles | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/models.py) | ![screenshot](documentation/validation/profilesmodelspy.png) | |
 | profiles | signals.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/signals.py) | ![screenshot](documentation/validation/profilessignalspy.png) | |
 | profiles | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/urls.py) | ![screenshot](documentation/validation/profilesurlspy.png) | |
 | profiles | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/views.py) | ![screenshot](documentation/validation/profilesviewspy.png) | |
-
-
-
-| the_tavern | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| the_tavern | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| the_tavern | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| the_tavern | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| the_tavern | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/admin.py) | ![screenshot](documentation/validation/tavernadminpy.png) | |
+| the_tavern | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/models.py) | ![screenshot](documentation/validation/tavernmodelspy.png) | |
+| the_tavern | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/urls.py) | ![screenshot](documentation/validation/tavernurlspy.png) | |
+| the_tavern | apps.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/apps.py) | ![screenshot](documentation/validation/tavernappspy.png) | |
+| the_tavern | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/views.py) | ![screenshot](documentation/validation/tavernviewspy.png) | |
 
 
 
