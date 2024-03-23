@@ -75,7 +75,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
 
-Use this space to discuss testing the live/deployed site on various device sizes.
+Responsivity was tested across multiple devices to ensure no issues.
 
 The minimum requirement is for the following 3 tests:
 - Mobile
