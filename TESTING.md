@@ -59,8 +59,7 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | the_tavern | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/urls.py) | ![screenshot](documentation/validation/tavernurlspy.png) | |
 | the_tavern | apps.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/apps.py) | ![screenshot](documentation/validation/tavernappspy.png) | |
 | the_tavern | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/views.py) | ![screenshot](documentation/validation/tavernviewspy.png) | |
-| you_all_start_in_a_tavern | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/you_all_start_in_a_tavern/settingspy.png) | ![screenshot](documentation/validation/settingspy.
-png) | Line 128 longer than standard but necessary |
+| you_all_start_in_a_tavern | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/you_all_start_in_a_tavern/settingspy.png) | ![screenshot](documentation/validation/settingspy.png) | Line 128 longer than standard but necessary |
 | you_all_start_in_a_tavern | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/you_all_start_in_a_tavern/urls.py) | ![screenshot](documentation/validation/urlspy.png) | |
 
 ## Browser Compatibility
