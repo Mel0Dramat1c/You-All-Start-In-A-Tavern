@@ -12,7 +12,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
 | about | about.html | ![screenshot](documentation/validation/w3aboutcheck.png) | |
-| characters | character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| characters | character.html | ![screenshot](documentation/validation/w3characterscheck.png) | |
 | characters | create_a_character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 | characters | edit_a_character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 | the_tavern | main_page.html | ![screenshot](documentation/validation/w3htmlmainpage.png) | |
