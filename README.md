@@ -136,19 +136,26 @@ Create A Character
 
     -  The main page of the website that features created characters for users to view. The page hosts pages of the most recently created characters as well as the navbar that allows easy navigation to any part of the website.
 
-![screenshot](documentation/features/feature01.png)
+![screenshot](documentation/features/about.png)
 
 - **{{ CREATE A CHARACTER }}**
 
     - The character creator that allows users to fill in fields to create a custom character using the 'character' model. The page features an easy to use form that contains multiple named fields.
 
-![screenshot](documentation/features/feature02.png)
+![screenshot](documentation/features/create.png)
 
 - **{{ CHARACTER }}**
 
-    - The created character pages that features its creator's charactor. These are found on the main page and contain a styled, easy to read character sheet of all the relevant characters stats chosen during the character creation phase.
+    - The created character pages that features its creator's charactor. These are found on the main page and contain a styled, easy to read character sheet of all the relevant characters stats chosen during the character creation phase. These characters can be edited or deleted by their respective user.
 
-![screenshot](documentation/features/feature03.png)
+![screenshot](documentation/features/charactersheet.png)
+
+- **{{ LOGIN/LOGOUT }}**
+
+    - The login and logout pages are easy to use and ensure that users have exclusive access to edit or delete their characters. They allow for saved passwords and have a remember me option for quick signing in to the website. 
+
+![screenshot](documentation/features/login.png)
+![screenshot](documentation/features/logout.png)
 
 ### Future Features
 
