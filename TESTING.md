@@ -31,7 +31,7 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| static | script.js | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| static | script.js | ![screenshot](documentation/validation/jscripttest.png) | |
 
 ### Python
 
