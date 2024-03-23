@@ -39,26 +39,50 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 | Directory | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| about | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| about | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/admin.py) | ![screenshot](documentation/validation/aboutadminpy.png) | |
+
+
+
+
 | about | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | about | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | about | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | characters | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | characters | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/forms.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | characters | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | characters | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | characters | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 |  | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/manage.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | profiles | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | profiles | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | profiles | signals.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/signals.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | profiles | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | profiles | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | the_tavern | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | the_tavern | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | the_tavern | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
 | the_tavern | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/the_tavern/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-| you_all_start_in_a_tavern | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/you_all_start_in_a_tavern/settings.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
+| you_all_start_in_a_tavern | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/you_all_start_in_a_tavern/settings.py) | ![screenshot](documentation/validation/path-to-screenshot.
+png) | |
+
 | you_all_start_in_a_tavern | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/you_all_start_in_a_tavern/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
 ## Browser Compatibility
