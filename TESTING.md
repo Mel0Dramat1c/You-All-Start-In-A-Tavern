@@ -3,61 +3,7 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Feature-by-Feature Testing:
-
-Go through each feature of your portfolio site and detail the testing process for each.
-
-Explain the functionality and demonstrate how it aligns with the intended purpose. This could include:
-
-- Navigation: Ensuring smooth transitions between pages, links directing to the correct destinations.
-- Responsive Design: Checking for compatibility across various devices and screen sizes.
-- Portfolio Display: Verifying that projects are properly showcased with accurate descriptions, images, and links.
-- Contact Form: Testing the form submission process, ensuring the user receives a confirmation, and you receive the message.
-
-User Experience Testing:
-
-- Usability Testing: Have users (or simulated users) interact with the site and provide feedback. Document any issues encountered and the resolutions implemented.
-- Accessibility Testing: Confirm compliance with accessibility standards (e.g., screen reader compatibility, proper alt text for images, keyboard navigation).
-
-Compatibility Testing:
-
-- Browser Compatibility: Testing on different browsers (Chrome, Firefox, Safari, Edge, etc.) to ensure consistent performance.
-- Device Compatibility: Ensuring functionality across various devices (desktops, laptops, tablets, and mobile phones).
-- Performance Testing (optional):
-	- Speed and Load Testing: Tools like PageSpeed Insights or GTmetrix to check page load times and optimize where necessary.
-	- Scalability Testing: Assess how the site handles increased traffic or usage.
-
-Regression Testing:
-
-After implementing fixes or updates, ensure that previous features and functionalities still work as intended. This prevents new changes from breaking existing features.
-
-Documentation and Logs:
-
-Maintain records of testing procedures, results, and any bugs encountered along with their resolutions. This helps demonstrate a systematic approach to testing and problem-solving.
-User Feedback Incorporation:
-
-If applicable, mention how user feedback has been taken into account and implemented to enhance the user experience.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 ## Code Validation
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ### HTML
 
