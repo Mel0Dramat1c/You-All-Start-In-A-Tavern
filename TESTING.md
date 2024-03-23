@@ -63,34 +63,13 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 ## Browser Compatibility
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use this space to discuss testing the live/deployed site on various browsers.
-
-Consider testing at least 3 different browsers, if available on your system.
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Home | About | Contact | etc | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browsers/browser-chrome-home.png) | ![screenshot](documentation/browsers/browser-chrome-about.png) | ![screenshot](documentation/browsers/browser-chrome-contact.png) | ![screenshot](documentation/browsers/browser-chrome-etc.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browsers/browser-firefox-home.png) | ![screenshot](documentation/browsers/browser-firefox-about.png) | ![screenshot](documentation/browsers/browser-firefox-contact.png) | ![screenshot](documentation/browsers/browser-firefox-etc.png) | Works as expected |
-| Edge | ![screenshot](documentation/browsers/browser-edge-home.png) | ![screenshot](documentation/browsers/browser-edge-about.png) | ![screenshot](documentation/browsers/browser-chrome-edge.png) | ![screenshot](documentation/browsers/browser-edge-etc.png) | Works as expected |
+| Chrome | ![screenshot](documentation/browsers/chromehome.png) | ![screenshot](documentation/browsers/chromeabout.png) | ![screenshot](documentation/browsers/chromecharacter.png) | ![screenshot](documentation/browsers/chromecreate.png) | ![screenshot](documentation/browsers/chromelogin.png)| ![screenshot](documentation/browsers/chromelogout.png) | Works as expected |
+| Firefox | ![screenshot](documentation/browsers/firefoxhome.png) | ![screenshot](documentation/browsers/firefoxabout.png) | ![screenshot](documentation/browsers/firefoxcharacter.png) | ![screenshot](documentation/browsers/firefoxcreate.png) | ![screenshot](documentation/browsers/firefoxlogin.png)| ![screenshot](documentation/browsers/firefoxlogout.png) | Works as expected |
+| Edge | ![screenshot](documentation/browsers/edgehome.png) | ![screenshot](documentation/browsers/edgeabout.png) | ![screenshot](documentation/browsers/edgecharacter.png) | ![screenshot](documentation/browsers/edgecreate.png) | ![screenshot](documentation/browsers/edgelogin.png)| ![screenshot](documentation/browsers/edgelogout.png) | Works as expected |
 
 ## Responsiveness
 
