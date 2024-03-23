@@ -40,11 +40,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | Directory | File | CI URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
 | about | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/admin.py) | ![screenshot](documentation/validation/aboutadminpy.png) | |
+| about | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/models.py) | ![screenshot](documentation/validation/aboutmodelspy.png) | |
 
-
-
-
-| about | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
 | about | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
