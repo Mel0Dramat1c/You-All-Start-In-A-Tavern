@@ -8,5 +8,4 @@ class ProfileAdmin(admin.ModelAdmin):
     Lists fields on display in admin.
     """
 
-
     list_display = ("user", "image_preview")
