@@ -11,7 +11,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
-| about | about.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+| about | about.html | ![screenshot](documentation/validation/w3aboutcheck.png) | |
 | characters | character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 | characters | create_a_character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 | characters | edit_a_character.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
