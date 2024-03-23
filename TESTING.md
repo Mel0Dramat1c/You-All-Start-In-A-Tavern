@@ -227,7 +227,7 @@ PP3 (Python-only):
 - Users must enter a valid letter/word/string when prompted
 - Users must choose from a specific list only
 
-MS3 (Flask) | MS4/PP4/PP5 (Django):
+MS4/PP4/PP5 (Django):
 - Users cannot brute-force a URL to navigate to a restricted page
 - Users cannot perform CRUD functionality while logged-out
 - User-A should not be able to manipulate data belonging to User-B, or vice versa
