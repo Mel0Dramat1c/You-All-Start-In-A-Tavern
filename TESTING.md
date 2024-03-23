@@ -73,8 +73,6 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Responsiveness
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
 Responsivity was tested across multiple devices to ensure no issues.
 
 | Device | Home | About | Contact | etc | Notes |
