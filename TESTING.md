@@ -41,21 +41,15 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | --- | --- | --- | --- | --- |
 | about | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/admin.py) | ![screenshot](documentation/validation/aboutadminpy.png) | |
 | about | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/models.py) | ![screenshot](documentation/validation/aboutmodelspy.png) | |
+| about | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/urls.py) | ![screenshot](documentation/validation/abouturlspy.png) | |
+| about | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/views.py) | ![screenshot](documentation/validation/aboutviewspy.png) | |
+| characters | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/admin.py) | ![screenshot](documentation/validation/charactersadminpy.png) | |
+| characters | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/forms.py) | ![screenshot](documentation/validation/charactersformpy.png) | |
+| characters | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/models.py) | ![screenshot](documentation/validation/charactersmodelspy.png) | |
+| characters | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/urls.py) | ![screenshot](documentation/validation/charactersurlspy.png) | |
+| characters | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/views.py) | ![screenshot](documentation/validation/charactersviewspy.png) | |
 
 
-| about | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| about | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/about/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| characters | admin.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/admin.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| characters | forms.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/forms.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| characters | models.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/models.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| characters | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
-
-| characters | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/characters/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
 |  | manage.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/manage.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
@@ -66,6 +60,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 | profiles | signals.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/signals.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
 | profiles | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
+
 
 | profiles | views.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/profiles/views.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
@@ -79,6 +75,8 @@ I have used the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com
 
 | you_all_start_in_a_tavern | settings.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/you_all_start_in_a_tavern/settings.py) | ![screenshot](documentation/validation/path-to-screenshot.
 png) | |
+
+
 
 | you_all_start_in_a_tavern | urls.py | [PEP8 CI](https://pep8ci.herokuapp.com/https://raw.githubusercontent.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/main/you_all_start_in_a_tavern/urls.py) | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 

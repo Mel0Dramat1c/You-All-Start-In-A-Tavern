@@ -7,7 +7,8 @@ from characters.forms import CharacterForm
 
 def main_page(request):
     characters = Character.objects.all()
-    return render(request, 'the_tavern/main_page.html', {'characters': characters})
+    return render(request, 'the_tavern/main_page.html',
+                  {'characters': characters})
 
 
 def detail(request, id):
@@ -46,7 +47,8 @@ def edit(request, id):
             # Redirect to character page
             return redirect(reverse('character_detail', kwargs={'id': id}))
         messages.error(request, "Error! Please try again.")
-    return render(request, 'edit_a_character.html', {'form': form, 'character': character})
+    return render(request, 'edit_a_character.html',
+                  {'form': form, 'character': character})
 
 
 def delete(request, id):
