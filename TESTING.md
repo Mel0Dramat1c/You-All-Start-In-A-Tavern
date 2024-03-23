@@ -77,35 +77,12 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 Responsivity was tested across multiple devices to ensure no issues.
 
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-I've tested my deployed project on multiple devices to check for responsiveness issues.
-
 | Device | Home | About | Contact | etc | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsiveness/responsive-mobile-home.png) | ![screenshot](documentation/responsiveness/responsive-mobile-about.png) | ![screenshot](documentation/responsiveness/responsive-mobile-contact.png) | ![screenshot](documentation/responsiveness/responsive-mobile-etc.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsiveness/responsive-tablet-home.png) | ![screenshot](documentation/responsiveness/responsive-tablet-about.png) | ![screenshot](documentation/responsiveness/responsive-tablet-contact.png) | ![screenshot](documentation/responsiveness/responsive-tablet-etc.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsiveness/responsive-desktop-home.png) | ![screenshot](documentation/responsiveness/responsive-desktop-about.png) | ![screenshot](documentation/responsiveness/responsive-desktop-contact.png) | ![screenshot](documentation/responsiveness/responsive-desktop-etc.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsiveness/responsive-xl-home.png) | ![screenshot](documentation/responsiveness/responsive-xl-about.png) | ![screenshot](documentation/responsiveness/responsive-xl-contact.png) | ![screenshot](documentation/responsiveness/responsive-xl-etc.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsiveness/responsive-4k-home.png) | ![screenshot](documentation/responsiveness/responsive-4k-about.png) | ![screenshot](documentation/responsiveness/responsive-4k-contact.png) | ![screenshot](documentation/responsiveness/responsive-4k-etc.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsiveness/responsive-pixel-home.png) | ![screenshot](documentation/responsiveness/responsive-pixel-about.png) | ![screenshot](documentation/responsiveness/responsive-pixel-contact.png) | ![screenshot](documentation/responsiveness/responsive-pixel-etc.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsiveness/responsive-iphone-home.png) | ![screenshot](documentation/responsiveness/responsive-iphone-about.png) | ![screenshot](documentation/responsiveness/responsive-iphone-contact.png) | ![screenshot](documentation/responsiveness/responsive-iphone-etc.png) | Works as expected |
-| repeat for any other tested browsers | x | x | x | x | x |
+| Mobile (DevTools) | ![screenshot](documentation/responsiveness/responsemobilehome.png) | ![screenshot](documentation/responsiveness/responsemobileabout.png) | ![screenshot](documentation/responsiveness/responsemobilecharacter.png) | ![screenshot](documentation/responsiveness/responsemobilecreate.png) | Scaling starts to have minor issues for character creator |
+| Tablet (DevTools) | ![screenshot](documentation/responsiveness/responsetablethome.png) | ![screenshot](documentation/responsiveness/responsetabletabout.png) | ![screenshot](documentation/responsiveness/responsetabletcharacter.png) | ![screenshot](documentation/responsiveness/responsetabletcreate.png) | Works as expected |
+| Laptop | ![screenshot](documentation/responsiveness/responselaptophome.png) | ![screenshot](documentation/responsiveness/responselaptopabout.png) | ![screenshot](documentation/responsiveness/responselaptopcharacter.png) | ![screenshot](documentation/responsiveness/responselaptopcreate.png) | Works as expected |
+| Desktop | ![screenshot](documentation/responsiveness/responsedesktoplargelaptophome.png) | ![screenshot](documentation/responsiveness/responsivedesktoplargelaptopabout.png) | ![screenshot](documentation/responsiveness/responsivedesktoplargelaptopcharacter.png) | ![screenshot](documentation/responsiveness/responsivedesktoplargelaptopcreate.png) | Works as expected |
 
 ## Lighthouse Audit
 
