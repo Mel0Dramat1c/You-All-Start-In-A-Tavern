@@ -84,13 +84,13 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 <summary> Click here to see the Desktop Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/home.png)
+  - ![screenshot](documentation/wireframes/homedesktop.png)
 
 About
-  - ![screenshot](documentation/wireframes/about.png)
+  - ![screenshot](documentation/wireframes/aboutdesktop.png)
 
 Character
-  - ![screenshot](documentation/wireframes/character.png)
+  - ![screenshot](documentation/wireframes/characterdesktop.png)
 </details>
 
 ### Mobile Wireframes
@@ -99,13 +99,13 @@ Character
 <summary> Click here to see the Mobile Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+  - ![screenshot](documentation/wireframes/homemobile.png)
 
 About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
+  - ![screenshot](documentation/wireframes/aboutmobile.png)
 
 Character
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
+  - ![screenshot](documentation/wireframes/charactermobile.png)
 
 etc.
   - repeat for any remaining mobile wireframes
@@ -118,13 +118,13 @@ etc.
 <summary> Click here to see the Tablet Wireframes </summary>
 
 Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+  - ![screenshot](documentation/wireframes/hometablet.png)
 
 About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
+  - ![screenshot](documentation/wireframes/abouttablet.png)
 
 Create A Character
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
+  - ![screenshot](documentation/wireframes/charactertablet.png)
 
 </details>
 
