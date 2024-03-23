@@ -16,8 +16,7 @@ Even for old school traditionalists who prefer the comforting feel of pen and pa
 
 ---
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
+Resposiveness was tested using AmIResponsive website:
 https://ui.dev/amiresponsive?url=https://you-all-start-in-a-tavern-91f97ae29726.herokuapp.com
 
 ![screenshot](documentation/amiresponsive.png)
