@@ -73,12 +73,12 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Responsiveness
 
-Responsivity was tested across multiple devices to ensure no issues.
+Responsivity was tested across multiple devices using DevTools to ensure no issues.
 
 | Device | Home | About | Contact | etc | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsiveness/responsemobilehome.png) | ![screenshot](documentation/responsiveness/responsemobileabout.png) | ![screenshot](documentation/responsiveness/responsemobilecharacter.png) | ![screenshot](documentation/responsiveness/responsemobilecreate.png) | Scaling starts to have minor issues for character creator |
-| Tablet (DevTools) | ![screenshot](documentation/responsiveness/responsetablethome.png) | ![screenshot](documentation/responsiveness/responsetabletabout.png) | ![screenshot](documentation/responsiveness/responsetabletcharacter.png) | ![screenshot](documentation/responsiveness/responsetabletcreate.png) | Works as expected |
+| Mobile | ![screenshot](documentation/responsiveness/responsemobilehome.png) | ![screenshot](documentation/responsiveness/responsemobileabout.png) | ![screenshot](documentation/responsiveness/responsemobilecharacter.png) | ![screenshot](documentation/responsiveness/responsemobilecreate.png) | Scaling starts to have minor issues for character creator |
+| Tablet | ![screenshot](documentation/responsiveness/responsetablethome.png) | ![screenshot](documentation/responsiveness/responsetabletabout.png) | ![screenshot](documentation/responsiveness/responsetabletcharacter.png) | ![screenshot](documentation/responsiveness/responsetabletcreate.png) | Works as expected |
 | Laptop | ![screenshot](documentation/responsiveness/responselaptophome.png) | ![screenshot](documentation/responsiveness/responselaptopabout.png) | ![screenshot](documentation/responsiveness/responselaptopcharacter.png) | ![screenshot](documentation/responsiveness/responselaptopcreate.png) | Works as expected |
 | Desktop | ![screenshot](documentation/responsiveness/responsedesktophome.png) | ![screenshot](documentation/responsiveness/responsedesktopabout.png) | ![screenshot](documentation/responsiveness/responsedesktopcharacter.png) | ![screenshot](documentation/responsiveness/responsedesktopcreate.png) | Works as expected |
 
