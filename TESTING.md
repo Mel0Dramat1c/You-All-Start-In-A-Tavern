@@ -146,15 +146,28 @@ from the respective feature.
 
 | User Story | Screenshot |
 | --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/features/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/features/feature09.png) |
+| As a new site user, I would like to easily create my own account, so that I can use the website.. | ![screenshot](documentation/features/register.png) |
+| As a new site user, I would like to immediately understand the purpose of the website, so that I can see if it's right for me.. | ![screenshot](documentation/features/about.png) |
+| As a new site user, I would like to be able to easily navigate the website, so that I am not confused or overwhelmed.. | ![screenshot](documentation/features/home.png) |
+| As a new site user, I would like to create my own character, so that I can use the website as a reference in my games.. | ![screenshot](documentation/features/create.png) |
+| As a returning site user, I would like to be able to sign in and out of my account.. | ![screenshot](documentation/features/login.png) |
+| As a returning site user, I would like my characters to be stored, so that I can reference them in the future. | ![screenshot](documentation/features/charactersheet.png) |
+
+
+
+| As a returning site user, I would like to be able to edit my character, so that I can keep them up to date. | ![screenshot](documentation/features/feature07.png) |
+
+| As a returning site user, I would like to delete characters that I no longer use. | ![screenshot](documentation/features/feature08.png) |
+
+| As a site administrator, I should be able to see profiles and characters made on the site. | ![screenshot](documentation/features/.png) |
+
+
+| As a site administrator, I should be able to delete character and profiles, so that I can better maintain the site. | ![screenshot](documentation/features/.png) |
+| As a site administrator, I should be able to ban bad acting users, so that I can keep the website friendly and welcoming. | ![screenshot](documentation/features/.png) |
+| As a site administrator, I should be able to easily manage the site, so that I can be confident in its quality. | ![screenshot](documentation/features/.png) |
+| As a site administrator, I should be able to keep the site secure, so that I can prevent character sheet sabotage. | ![screenshot](documentation/features/.png) |
+
+
 | repeat for all remaining user stories | x |
 
 
