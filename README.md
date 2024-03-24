@@ -553,7 +553,6 @@ however, it is important to be very specific about these sources to avoid plagia
 | --- | --- | --- | --- |
 | [DeepAi](https://deepai.org/machine-learning-model/text2img) | entire site | images |
 | [MasterArtStudio](https://www.masterartstudio.com/antique-scroll-backgrounds-jpg/) | antique scroll backgrounds | main page background |
-| [Flaticon](https://www.flaticon.com/free-icon/fantasy_7520395) | free icon | favicon |
 
 ### Acknowledgements
 
