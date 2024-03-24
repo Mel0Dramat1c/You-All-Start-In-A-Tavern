@@ -106,10 +106,14 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
+
 | Home | ![screenshot](documentation/lighthouse/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-home-desktop.png) | Some minor warnings |
+
 | About | ![screenshot](documentation/lighthouse/lighthouse-about-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-about-desktop.png) | Some minor warnings |
-| Gallery | ![screenshot](documentation/lighthouse/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+
+| Create A Character | ![screenshot](documentation/lighthouse/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-gallery-desktop.png) | Slow response time due to large images |
+
+| Character | ![screenshot](documentation/lighthouse/lighthouse-gallery-mobile.png) | ![screenshot](documentation/lighthouse/lighthouse-gallery-desktop.png) | Slow response time due to large images |
 
 ## Defensive Programming
 
@@ -125,6 +129,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | | Click on delete as assigned user | Confirmation required as expected before successful deletion | Pass | | 
 | | Attempt to load edit url as unassigned user | Redirected to home with warning message | Pass | |
 | | Attempt to load delete url as unassigned user | Redirected to home with warning message | Pass | |
+| About | | | | |
+| | Click on About link in navbar | Redirection to About page | Pass | |
 | Create A Character | | | | |
 | | Enter name | Field will accept freeform text | Pass | |
 | | Enter character level | Field will only accept numbers between 1 and 20 | Pass | |
