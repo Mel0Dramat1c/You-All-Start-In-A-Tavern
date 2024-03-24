@@ -3,12 +3,14 @@ from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout, Submit
 from characters.models import Character
 
+
 class CharacterForm(forms.ModelForm):
     class Meta:
         model = Character
-        fields = ['name', 'character_class', 'character_race', 'level',
-        'strength', 'dexterity', 'constitution', 'intelligence', 'wisdom',
-        'charisma', 'items', 'features', 'bio']
+        fields = [
+            'name', 'character_class', 'character_race', 'level',
+            'strength', 'dexterity', 'constitution', 'intelligence', 'wisdom',
+            'charisma', 'items', 'features', 'bio']
 
 
 def __init__(self, *args, **kwargs):
