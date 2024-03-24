@@ -131,25 +131,25 @@ Create A Character
 
 ### Existing Features
 
-- **{{ THE TAVERN }}**
+- **THE TAVERN**
 
     -  The main page of the website that features created characters for users to view. The page hosts pages of the most recently created characters as well as the navbar that allows easy navigation to any part of the website.
 
 ![screenshot](documentation/features/about.png)
 
-- **{{ CREATE A CHARACTER }}**
+- **CREATE A CHARACTER**
 
     - The character creator that allows users to fill in fields to create a custom character using the 'character' model. The page features an easy to use form that contains multiple named fields.
 
 ![screenshot](documentation/features/create.png)
 
-- **{{ CHARACTER }}**
+- **CHARACTER**
 
     - The created character pages that features its creator's charactor. These are found on the main page and contain a styled, easy to read character sheet of all the relevant characters stats chosen during the character creation phase. These characters can be edited or deleted by their respective user.
 
 ![screenshot](documentation/features/charactersheet.png)
 
-- **{{ LOGIN/LOGOUT }}**
+- **LOGIN/LOGOUT**
 
     - The login and logout pages are easy to use and ensure that users have exclusive access to edit or delete their characters. They allow for saved passwords and have a remember me option for quick signing in to the website. 
 
@@ -158,17 +158,17 @@ Create A Character
 
 ### Future Features
 
-- {{ Search Bar }}
+- Search Bar
     - A search feature to allow users to search for characters by name, class, or user.
-- {{ User Characters }}
+- User Characters
     - A feature to limit the displayed characters to ones only created by the logged in user for quick access.
-- {{ Profile customisation }}
+- Profile customisation
     - A feature to allow personal customisation of the logged in users profile, including profile picture, and the ability to quickly edit username.
-- {{ Ability Score Modifiers }}
+- Ability Score Modifiers
     - A feature to automatically determine ability score modifiers for gameplay by converting listed character statistics into the respective bonuses they apply, e.g. Having 14 Strength grants a +2 modifier for Strength checks.
-- {{ Default Traits }}
+- Default Traits
     - A feature to automatically provide default class or race features provided by the chosen character class or race, e.g. Elves having Darkvision or Barbarians having Rage.
-- {{ Character Portraits }}
+- Character Portraits
     - A feature to allow users to upload a picture of their character to their character sheet rather than the default placeholder.
   
 
@@ -210,8 +210,6 @@ Create A Character
 
 Entity Relationship Diagrams (ERD) help to visualize database architecture before creating models.
 Understanding the relationships between different tables can save time later in the project.
-
-![screenshot](documentation/erd.png)
 
 ## Models
 
@@ -317,6 +315,8 @@ INSTALLED_APPS = [
 - dragged the new `erd.png` file into my `documentation/` folder
 - removed `'django_extensions',` from my `INSTALLED_APPS`
 - finally, in the terminal: `pip3 uninstall django-extensions pygraphviz -y`
+
+![screenshot](documentation/erd.png)
 
 source: [medium.com](https://medium.com/@yathomasi1/1-using-django-extensions-to-visualize-the-database-diagram-in-django-application-c5fa7e710e16)
 
