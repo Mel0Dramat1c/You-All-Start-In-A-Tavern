@@ -343,11 +343,11 @@ It also helped with milestone iterations on a weekly basis.
 
 - [Open Issues](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/issues) [![GitHub issues](https://img.shields.io/github/issues/Mel0Dramat1c/You-All-Start-In-A-Tavern)](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/issues)
 
-    ![screenshot](documentation/kanban.png)
+    ![screenshot](documentation/openissues.png)
 
 - [Closed Issues](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/issues?q=is%3Aissue+is%3Aclosed) [![GitHub closed issues](https://img.shields.io/github/issues-closed/Mel0Dramat1c/You-All-Start-In-A-Tavern)](https://github.com/Mel0Dramat1c/You-All-Start-In-A-Tavern/issues?q=is%3Aissue+is%3Aclosed)
 
-    ![screenshot](documentation/gh-issues-closed.png)
+    ![screenshot](documentation/closedissues.png)
 
 ### MoSCoW Prioritization
 
