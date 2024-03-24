@@ -148,6 +148,8 @@ Create A Character
     - The created character pages that features its creator's charactor. These are found on the main page and contain a styled, easy to read character sheet of all the relevant characters stats chosen during the character creation phase. These characters can be edited or deleted by their respective user.
 
 ![screenshot](documentation/features/charactersheet.png)
+![screenshot](documentation/features/delete.png)
+
 
 - **LOGIN/LOGOUT**
 

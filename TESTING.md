@@ -134,16 +134,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## User Story Testing
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
 | User Story | Screenshot |
 | --- | --- |
 | As a new site user, I would like to easily create my own account, so that I can use the website.. | ![screenshot](documentation/features/register.png) |
@@ -151,25 +141,9 @@ from the respective feature.
 | As a new site user, I would like to be able to easily navigate the website, so that I am not confused or overwhelmed.. | ![screenshot](documentation/features/home.png) |
 | As a new site user, I would like to create my own character, so that I can use the website as a reference in my games.. | ![screenshot](documentation/features/create.png) |
 | As a returning site user, I would like to be able to sign in and out of my account.. | ![screenshot](documentation/features/login.png) |
+| As a returning site user, I would like to be able to edit my character, so that I can keep them up to date. |
 | As a returning site user, I would like my characters to be stored, so that I can reference them in the future. | ![screenshot](documentation/features/charactersheet.png) |
-
-
-
-| As a returning site user, I would like to be able to edit my character, so that I can keep them up to date. | ![screenshot](documentation/features/feature07.png) |
-
-| As a returning site user, I would like to delete characters that I no longer use. | ![screenshot](documentation/features/feature08.png) |
-
-| As a site administrator, I should be able to see profiles and characters made on the site. | ![screenshot](documentation/features/.png) |
-
-
-| As a site administrator, I should be able to delete character and profiles, so that I can better maintain the site. | ![screenshot](documentation/features/.png) |
-| As a site administrator, I should be able to ban bad acting users, so that I can keep the website friendly and welcoming. | ![screenshot](documentation/features/.png) |
-| As a site administrator, I should be able to easily manage the site, so that I can be confident in its quality. | ![screenshot](documentation/features/.png) |
-| As a site administrator, I should be able to keep the site secure, so that I can prevent character sheet sabotage. | ![screenshot](documentation/features/.png) |
-
-
-| repeat for all remaining user stories | x |
-
+| As a returning site user, I would like to delete characters that I no longer use. | ![screenshot](documentation/features/delete.png) |
 
 ### GitHub **Issues**
 
