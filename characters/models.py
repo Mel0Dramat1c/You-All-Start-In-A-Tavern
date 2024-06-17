@@ -3,7 +3,6 @@ from django.db import models
 from profiles.models import Profile
 
 
-# Create your models here.
 class CharacterClass(models.Model):
     """
     Models for the character classes.

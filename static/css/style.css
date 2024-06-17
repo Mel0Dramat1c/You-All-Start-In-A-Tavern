@@ -2,7 +2,7 @@
     background-image: url('../images/scrollbackground.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Optional, keeps the background fixed while scrolling */
+    background-attachment: fixed; /* keeps the background fixed while scrolling */
     height: 100vh; /* Fills the entire viewport height */
 }
 
