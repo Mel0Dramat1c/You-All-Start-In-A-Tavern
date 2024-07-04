@@ -24,11 +24,12 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-mel0dramat1-youallstart-tao65gz44k6.ws-eu115.gitpod.io']
 
-CSRF_TRUSTED_ORIGINS = []
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-mel0dramat1-youallstart-tao65gz44k6.ws-eu115.gitpod.io']
 
 host = os.environ.get("HOST")
 if host:
